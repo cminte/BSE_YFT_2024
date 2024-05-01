@@ -99,7 +99,7 @@ create.strat.flg.f.YFT = function(lat.5deg,lon.5deg,is.lwrght,month,setype,vesse
   area<-rep(1,nrecs)
   area[lon.5deg>(-130) & lat.5deg<=(-10)]<-2
   area[lon.5deg>(-130) & lat.5deg<=0 & lat.5deg>(-10)]<-3
-  area[lon.5deg>(-130)  lat.5deg>0]<-4
+  area[lon.5deg>(-130) &  lat.5deg>0]<-4
   
   #area[lon.5deg>(-130) & lon.5deg<=(-110) & lat.5deg>0]<-4
   #area[lon.5deg>(-110) & lat.5deg>0]<-5
