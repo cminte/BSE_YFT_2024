@@ -68,8 +68,8 @@ create.strat.flg.f.YFT = function(lat.5deg,lon.5deg,is.lwrght,month,setype,vesse
   if(PS=="NOA") {
   print("Using catch stratification: YFT SAC 15 UNA")
   area<-rep(1,nrecs)
-  area[lon.5deg>(-130) & lat.5deg>=0]<-3
-  area[lon.5deg>(-130) & lat.5deg<0]<-2
+  area[lon.5deg>(-130) & lat.5deg>=5]<-3
+  area[lon.5deg>(-130) & lat.5deg<5]<-2
     
   #print("Using catch stratification: YFT SAC 12 UNA")
   #area<-rep(2,nrecs)
